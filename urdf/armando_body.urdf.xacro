@@ -440,6 +440,16 @@
 
     <link name="camera_mount"/>
 
+
+    <!-- <joint name="camera_mount_joint_2" type="fixed">
+        <parent link="crawer_base"/>    
+        <child link="second_camera_mount"/>
+        <origin xyz="0.0 0.0 0.0" rpy="1.57079632679 0 0"/>
+    </joint>
+
+    <link name="second_camera_mount"/> -->
+    
+
     <!-- ===== Plugin Gazebo ===== -->
 
     <gazebo>
